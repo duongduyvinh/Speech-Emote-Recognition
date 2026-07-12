@@ -1,0 +1,13 @@
+| model_name                                 |Num of params |  UAR   | weight_decay                    |
+|--------------------------------------------|--------------|--------|--------------------------------|
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6348 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6315 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6074 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6068 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.5872 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6107 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6048 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.5977 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6113 | 1.1e-03 |
+| Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |      108,916 | 0.6146 | 1.1e-03 |
+| Final:Res_LSTM_MV-Att_OPTUNA_num1_H128_8_classes |108,916 | 0.6107 +/- 0.0134| 1.1e-03 |

@@ -1,0 +1,50 @@
+| model_name                       |Num of params |  UAR  | weight_decay                    |
+|--------------------------------------|--------------|--------|--------------------------------|
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5938 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5911 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5964 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5820 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5846 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.6022 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5872 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5977 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5807 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5788 | 2.1e-04 |
+| Final:LSTM_MV-Att_OPTUNA_num2_H128_8_classes |       91,656 | 0.5895 +/- 0.0076| 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5905 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5710 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5807 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5853 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5788 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5872 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5944 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.6003 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5879 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5742 | 2.1e-04 |
+| Final:LSTM_MV-Att_OPTUNA_num4_H128_8_classes |       91,912 | 0.5850 +/- 0.0086| 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5859 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5918 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5638 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5605 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5820 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5905 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5898 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5977 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5898 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5788 | 2.1e-04 |
+| Final:LSTM_MV-Att_OPTUNA_num8_H128_8_classes |       92,424 | 0.5831 +/- 0.0116| 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5736 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5827 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5794 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5911 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5801 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5827 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5762 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5911 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5781 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5905 | 2.1e-04 |
+| Final:LSTM_MV-Att_OPTUNA_num16_H128_8_classes |       93,448 | 0.5826 +/- 0.0061| 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num32_H128_8_classes |       95,496 | 0.5703 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num32_H128_8_classes |       95,496 | 0.5775 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num32_H128_8_classes |       95,496 | 0.5794 | 2.1e-04 |
+| LSTM_MV-Att_OPTUNA_num32_H128_8_classes |       95,496 | 0.5794 | 2.1e-04 |

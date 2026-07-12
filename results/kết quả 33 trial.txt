@@ -1,0 +1,1088 @@
+[I 2026-07-09 17:16:26,719] A new study created in RDB with name: ResLSTM_SA_H64_Triplet_tuning_v2
+Starting Optuna optimization with 50 trials...
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.9334 | Val loss: 2.1702 | Val UAR: 0.1250
+Epoch 10/100 [Alpha: 0.30] | Train loss: 2.8843 | Val loss: 2.7300 | Val UAR: 0.1406
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.8180 | Val loss: 2.5651 | Val UAR: 0.1484
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.5842 | Val loss: 2.4484 | Val UAR: 0.1484
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.5069 | Val loss: 2.3457 | Val UAR: 0.1641
+Epoch 50/100 [Alpha: 0.50] | Train loss: 2.4698 | Val loss: 2.2712 | Val UAR: 0.1797
+Epoch 60/100 [Alpha: 0.50] | Train loss: 2.3630 | Val loss: 2.2048 | Val UAR: 0.2109
+Epoch 70/100 [Alpha: 0.50] | Train loss: 2.2560 | Val loss: 2.1554 | Val UAR: 0.2188
+Epoch 80/100 [Alpha: 0.50] | Train loss: 2.1367 | Val loss: 2.1161 | Val UAR: 0.2422
+Epoch 90/100 [Alpha: 0.50] | Train loss: 2.0766 | Val loss: 2.0683 | Val UAR: 0.2188
+Epoch 100/100 [Alpha: 0.50] | Train loss: 2.0720 | Val loss: 2.0393 | Val UAR: 0.2500
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 3.5065 | Val loss: 2.1533 | Val UAR: 0.0938
+Epoch 10/100 [Alpha: 0.30] | Train loss: 3.3227 | Val loss: 2.4821 | Val UAR: 0.1172
+Epoch 20/100 [Alpha: 0.50] | Train loss: 3.0759 | Val loss: 2.2996 | Val UAR: 0.1562
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.8528 | Val loss: 2.1509 | Val UAR: 0.1875
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.6689 | Val loss: 2.1011 | Val UAR: 0.1875
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 2.2883 | Val loss: 1.9415 | Val UAR: 0.3281
+Epoch 70/100 [Alpha: 0.50] | Train loss: 2.2595 | Val loss: 1.8827 | Val UAR: 0.3438
+Epoch 80/100 [Alpha: 0.50] | Train loss: 2.1442 | Val loss: 1.8266 | Val UAR: 0.3516
+Epoch 90/100 [Alpha: 0.50] | Train loss: 2.0016 | Val loss: 1.7986 | Val UAR: 0.3594
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:20:25,366] Trial 0 finished with value: 0.28971354166666663 and parameters: {'lr': 1.4857107438993715e-05, 'batch_size': 64, 'dropout_rate': 0.42288091828580604, 'wd': 0.0022463888856372864, 't_0_loop': 1}. Best is trial 0 with value: 0.28971354166666663.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 2.0255 | Val loss: 1.7231 | Val UAR: 0.3906
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.2254 | Val loss: 2.0296 | Val UAR: 0.1719
+Epoch 10/100 [Alpha: 0.30] | Train loss: 1.0895 | Val loss: 1.7295 | Val UAR: 0.3516
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.5578 | Val loss: 1.8166 | Val UAR: 0.3594
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3396 | Val loss: 1.8462 | Val UAR: 0.4141
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2852 | Val loss: 1.8096 | Val UAR: 0.4609
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2431 | Val loss: 1.9758 | Val UAR: 0.3984
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1964 | Val loss: 1.8201 | Val UAR: 0.4219
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2337 | Val loss: 1.8352 | Val UAR: 0.4141
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2065 | Val loss: 1.7800 | Val UAR: 0.4219
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2175 | Val loss: 1.8128 | Val UAR: 0.4062
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1913 | Val loss: 1.7678 | Val UAR: 0.4219
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.5932 | Val loss: 1.9776 | Val UAR: 0.2109
+Epoch 10/100 [Alpha: 0.30] | Train loss: 1.0619 | Val loss: 1.7377 | Val UAR: 0.4219
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.5462 | Val loss: 1.9325 | Val UAR: 0.4297
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3035 | Val loss: 2.2725 | Val UAR: 0.3906
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2561 | Val loss: 2.2061 | Val UAR: 0.3906
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2307 | Val loss: 1.6399 | Val UAR: 0.5000
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2043 | Val loss: 1.6869 | Val UAR: 0.5156
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2077 | Val loss: 1.6180 | Val UAR: 0.5156
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2038 | Val loss: 1.6925 | Val UAR: 0.5000
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:28:01,012] Trial 1 finished with value: 0.40690104166666674 and parameters: {'lr': 0.000372490325099339, 'batch_size': 32, 'dropout_rate': 0.1378739211446848, 'wd': 0.03386989476905076, 't_0_loop': 2}. Best is trial 1 with value: 0.40690104166666674.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1837 | Val loss: 1.5601 | Val UAR: 0.5312
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8158 | Val loss: 1.8440 | Val UAR: 0.2578
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.1546 | Val loss: 2.1105 | Val UAR: 0.4922
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2061 | Val loss: 3.2570 | Val UAR: 0.4375
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1528 | Val loss: 3.1004 | Val UAR: 0.4688
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1569 | Val loss: 3.2202 | Val UAR: 0.4766
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1966 | Val loss: 3.0239 | Val UAR: 0.4219
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1669 | Val loss: 3.0070 | Val UAR: 0.4609
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1632 | Val loss: 2.8389 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1907 | Val loss: 4.5505 | Val UAR: 0.4922
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1820 | Val loss: 2.9915 | Val UAR: 0.5156
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1842 | Val loss: 3.3499 | Val UAR: 0.5547
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7704 | Val loss: 1.6561 | Val UAR: 0.3750
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.1754 | Val loss: 3.7872 | Val UAR: 0.3906
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2132 | Val loss: 3.6401 | Val UAR: 0.4297
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1678 | Val loss: 3.4676 | Val UAR: 0.5078
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1783 | Val loss: 3.2283 | Val UAR: 0.4297
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2413 | Val loss: 2.6337 | Val UAR: 0.5703
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1546 | Val loss: 3.5594 | Val UAR: 0.5312
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1881 | Val loss: 2.8371 | Val UAR: 0.6172
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1703 | Val loss: 2.9466 | Val UAR: 0.5859
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:32:00,345] Trial 2 finished with value: 0.49934895833333337 and parameters: {'lr': 0.02000884105037936, 'batch_size': 64, 'dropout_rate': 0.12538392448580207, 'wd': 2.49903797319822e-05, 't_0_loop': 3}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2400 | Val loss: 2.5645 | Val UAR: 0.6250
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.5757 | Val loss: 2.1171 | Val UAR: 0.1250
+Epoch 10/100 [Alpha: 0.30] | Train loss: 1.8904 | Val loss: 2.0534 | Val UAR: 0.2578
+Epoch 20/100 [Alpha: 0.50] | Train loss: 1.5309 | Val loss: 1.8977 | Val UAR: 0.2578
+Epoch 30/100 [Alpha: 0.50] | Train loss: 1.1020 | Val loss: 1.8487 | Val UAR: 0.2891
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.8388 | Val loss: 1.8825 | Val UAR: 0.3125
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.5982 | Val loss: 1.9232 | Val UAR: 0.3359
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.4632 | Val loss: 2.0087 | Val UAR: 0.3359
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3319 | Val loss: 2.1617 | Val UAR: 0.3516
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2427 | Val loss: 2.2678 | Val UAR: 0.3438
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2060 | Val loss: 2.4048 | Val UAR: 0.3438
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1737 | Val loss: 2.5293 | Val UAR: 0.3438
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 3.1201 | Val loss: 2.0879 | Val UAR: 0.1328
+Epoch 10/100 [Alpha: 0.30] | Train loss: 1.8999 | Val loss: 1.9225 | Val UAR: 0.2812
+Epoch 20/100 [Alpha: 0.50] | Train loss: 1.5366 | Val loss: 1.7769 | Val UAR: 0.3984
+Epoch 30/100 [Alpha: 0.50] | Train loss: 1.1128 | Val loss: 1.7049 | Val UAR: 0.4453
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.8891 | Val loss: 1.7830 | Val UAR: 0.4375
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.4356 | Val loss: 1.6812 | Val UAR: 0.4688
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3529 | Val loss: 1.8732 | Val UAR: 0.4766
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2327 | Val loss: 1.8417 | Val UAR: 0.4844
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1927 | Val loss: 1.9692 | Val UAR: 0.5000
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:35:58,218] Trial 3 finished with value: 0.38541666666666674 and parameters: {'lr': 0.000171698788465759, 'batch_size': 64, 'dropout_rate': 0.22722405919835484, 'wd': 5.100418866010408e-05, 't_0_loop': 3}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1700 | Val loss: 2.0688 | Val UAR: 0.4922
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.2440 | Val loss: 1.9509 | Val UAR: 0.1562
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.6867 | Val loss: 1.7289 | Val UAR: 0.3672
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1979 | Val loss: 2.3570 | Val UAR: 0.3672
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1610 | Val loss: 2.6219 | Val UAR: 0.3594
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1855 | Val loss: 2.7616 | Val UAR: 0.3594
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1790 | Val loss: 2.8865 | Val UAR: 0.3828
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1320 | Val loss: 3.0617 | Val UAR: 0.3828
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0473 | Val loss: 3.1320 | Val UAR: 0.3984
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0681 | Val loss: 3.1215 | Val UAR: 0.4062
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0961 | Val loss: 2.8510 | Val UAR: 0.4141
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0707 | Val loss: 3.1764 | Val UAR: 0.4141
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.5012 | Val loss: 1.9437 | Val UAR: 0.2422
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.6535 | Val loss: 1.8493 | Val UAR: 0.3828
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2096 | Val loss: 2.3589 | Val UAR: 0.4141
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1387 | Val loss: 2.6628 | Val UAR: 0.4062
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1753 | Val loss: 3.0050 | Val UAR: 0.3750
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1213 | Val loss: 2.1905 | Val UAR: 0.5156
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0984 | Val loss: 2.5059 | Val UAR: 0.5156
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0737 | Val loss: 2.9086 | Val UAR: 0.5312
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0770 | Val loss: 2.5897 | Val UAR: 0.5625
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:39:52,471] Trial 4 finished with value: 0.4375 and parameters: {'lr': 0.001110144337872353, 'batch_size': 64, 'dropout_rate': 0.2460109143424258, 'wd': 2.782689697425941e-05, 't_0_loop': 3}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0720 | Val loss: 2.3002 | Val UAR: 0.5859
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8475 | Val loss: 1.8649 | Val UAR: 0.2578
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4020 | Val loss: 1.5491 | Val UAR: 0.4609
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4132 | Val loss: 1.5930 | Val UAR: 0.4609
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3956 | Val loss: 1.8840 | Val UAR: 0.4062
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3486 | Val loss: 1.8606 | Val UAR: 0.3906
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3918 | Val loss: 1.6819 | Val UAR: 0.4922
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.3055 | Val loss: 1.7401 | Val UAR: 0.4766
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3212 | Val loss: 1.8402 | Val UAR: 0.4219
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3513 | Val loss: 1.7500 | Val UAR: 0.4453
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.3164 | Val loss: 1.9377 | Val UAR: 0.4453
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3171 | Val loss: 1.6202 | Val UAR: 0.5078
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8803 | Val loss: 1.8197 | Val UAR: 0.3125
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4523 | Val loss: 1.7245 | Val UAR: 0.4141
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4075 | Val loss: 1.9825 | Val UAR: 0.4375
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3611 | Val loss: 2.8048 | Val UAR: 0.3281
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3268 | Val loss: 2.5490 | Val UAR: 0.3750
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.3280 | Val loss: 1.3669 | Val UAR: 0.5781
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3387 | Val loss: 1.5027 | Val UAR: 0.5391
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3370 | Val loss: 1.4564 | Val UAR: 0.5469
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.3356 | Val loss: 1.4264 | Val UAR: 0.5938
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:43:50,195] Trial 5 finished with value: 0.46158854166666663 and parameters: {'lr': 0.00504647276356501, 'batch_size': 64, 'dropout_rate': 0.15981527903080833, 'wd': 0.016768244757971427, 't_0_loop': 1}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3488 | Val loss: 1.2441 | Val UAR: 0.5625
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.4856 | Val loss: 2.1552 | Val UAR: 0.1797
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.7921 | Val loss: 1.7870 | Val UAR: 0.4141
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2810 | Val loss: 2.4329 | Val UAR: 0.3594
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1876 | Val loss: 2.5861 | Val UAR: 0.3828
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0272 | Val loss: 2.6257 | Val UAR: 0.3984
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0118 | Val loss: 2.7707 | Val UAR: 0.3828
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0886 | Val loss: 2.6523 | Val UAR: 0.4531
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0759 | Val loss: 2.7231 | Val UAR: 0.4297
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0583 | Val loss: 2.6080 | Val UAR: 0.4062
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0376 | Val loss: 2.3664 | Val UAR: 0.4609
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0109 | Val loss: 2.5065 | Val UAR: 0.4375
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.7949 | Val loss: 1.9698 | Val UAR: 0.2109
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.6933 | Val loss: 1.6584 | Val UAR: 0.4219
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2589 | Val loss: 2.3627 | Val UAR: 0.3828
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1290 | Val loss: 2.6786 | Val UAR: 0.3672
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1212 | Val loss: 3.0229 | Val UAR: 0.3359
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0455 | Val loss: 1.8784 | Val UAR: 0.5781
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0761 | Val loss: 1.9171 | Val UAR: 0.5781
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0519 | Val loss: 1.7665 | Val UAR: 0.6172
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0100 | Val loss: 1.7577 | Val UAR: 0.6250
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 17:54:29,134] Trial 6 finished with value: 0.4381510416666667 and parameters: {'lr': 0.00040127416846138093, 'batch_size': 16, 'dropout_rate': 0.43304113692684654, 'wd': 0.002719591253877462, 't_0_loop': 1}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1135 | Val loss: 1.8641 | Val UAR: 0.5859
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0902 | Val loss: 1.6809 | Val UAR: 0.3828
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.5506 | Val loss: 1.8744 | Val UAR: 0.4922
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.5254 | Val loss: 1.2406 | Val UAR: 0.6250
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3374 | Val loss: 1.2972 | Val UAR: 0.5938
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3471 | Val loss: 3.4486 | Val UAR: 0.4609
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.4531 | Val loss: 1.8428 | Val UAR: 0.5078
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2631 | Val loss: 1.5852 | Val UAR: 0.5859
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2919 | Val loss: 1.9513 | Val UAR: 0.5000
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3480 | Val loss: 1.5860 | Val UAR: 0.5703
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2780 | Val loss: 1.6488 | Val UAR: 0.5547
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3218 | Val loss: 2.0405 | Val UAR: 0.5000
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8841 | Val loss: 1.8174 | Val UAR: 0.3359
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.5403 | Val loss: 2.4992 | Val UAR: 0.3594
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.5119 | Val loss: 2.7548 | Val UAR: 0.3438
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3040 | Val loss: 2.0366 | Val UAR: 0.4609
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3860 | Val loss: 2.5657 | Val UAR: 0.4219
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2982 | Val loss: 1.4089 | Val UAR: 0.6172
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.4334 | Val loss: 1.1798 | Val UAR: 0.6250
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3907 | Val loss: 1.4349 | Val UAR: 0.5938
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2556 | Val loss: 1.4723 | Val UAR: 0.5703
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 18:01:00,738] Trial 7 finished with value: 0.4772135416666667 and parameters: {'lr': 0.010472001864797133, 'batch_size': 32, 'dropout_rate': 0.4681615403232287, 'wd': 0.005758078401210564, 't_0_loop': 3}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3884 | Val loss: 1.5819 | Val UAR: 0.5625
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.1141 | Val loss: 1.7360 | Val UAR: 0.2969
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3698 | Val loss: 1.4596 | Val UAR: 0.5078
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2748 | Val loss: 1.6859 | Val UAR: 0.4609
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2131 | Val loss: 1.7908 | Val UAR: 0.4531
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1413 | Val loss: 1.9228 | Val UAR: 0.4297
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1644 | Val loss: 1.6990 | Val UAR: 0.4688
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1223 | Val loss: 1.9205 | Val UAR: 0.4609
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0929 | Val loss: 2.6465 | Val UAR: 0.3672
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1024 | Val loss: 2.0955 | Val UAR: 0.3750
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0929 | Val loss: 1.8532 | Val UAR: 0.3984
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1392 | Val loss: 1.9134 | Val UAR: 0.4297
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9829 | Val loss: 1.8373 | Val UAR: 0.3203
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3851 | Val loss: 2.1523 | Val UAR: 0.4141
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2533 | Val loss: 2.2005 | Val UAR: 0.3984
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1979 | Val loss: 2.1133 | Val UAR: 0.4062
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1589 | Val loss: 2.1349 | Val UAR: 0.4453
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1783 | Val loss: 1.1928 | Val UAR: 0.6641
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1545 | Val loss: 1.0855 | Val UAR: 0.6641
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1650 | Val loss: 1.2554 | Val UAR: 0.5781
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1245 | Val loss: 1.1743 | Val UAR: 0.6406
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 18:07:30,464] Trial 8 finished with value: 0.47526041666666663 and parameters: {'lr': 0.004776191067537241, 'batch_size': 32, 'dropout_rate': 0.45634622156678756, 'wd': 0.013585841021329126, 't_0_loop': 10}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1576 | Val loss: 1.2496 | Val UAR: 0.6094
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.3014 | Val loss: 2.0241 | Val UAR: 0.1953
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.9966 | Val loss: 1.8068 | Val UAR: 0.3359
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3634 | Val loss: 2.0667 | Val UAR: 0.3359
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2049 | Val loss: 2.2904 | Val UAR: 0.3828
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1824 | Val loss: 2.7255 | Val UAR: 0.3828
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0732 | Val loss: 2.7779 | Val UAR: 0.3516
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1164 | Val loss: 2.9005 | Val UAR: 0.3672
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0623 | Val loss: 2.6570 | Val UAR: 0.4141
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0238 | Val loss: 2.8809 | Val UAR: 0.3984
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0107 | Val loss: 2.9258 | Val UAR: 0.4141
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0271 | Val loss: 3.3196 | Val UAR: 0.3672
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.6685 | Val loss: 1.9889 | Val UAR: 0.2109
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.9783 | Val loss: 1.7741 | Val UAR: 0.4141
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3775 | Val loss: 2.0615 | Val UAR: 0.3984
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1950 | Val loss: 2.6279 | Val UAR: 0.3828
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1234 | Val loss: 2.5982 | Val UAR: 0.4297
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0639 | Val loss: 2.4745 | Val UAR: 0.4766
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0739 | Val loss: 2.3608 | Val UAR: 0.5469
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0578 | Val loss: 2.3881 | Val UAR: 0.5391
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0363 | Val loss: 2.2694 | Val UAR: 0.5781
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 18:13:53,236] Trial 9 finished with value: 0.44010416666666663 and parameters: {'lr': 0.0004093705429116689, 'batch_size': 32, 'dropout_rate': 0.2421027324719589, 'wd': 3.439289398043473e-05, 't_0_loop': 2}. Best is trial 2 with value: 0.49934895833333337.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0139 | Val loss: 2.5525 | Val UAR: 0.5547
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.5097 | Val loss: 2.8440 | Val UAR: 0.1328
+Epoch 10/100 [Alpha: 0.30] | Train loss: 2.4142 | Val loss: 2.5830 | Val UAR: 0.1484
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.3101 | Val loss: 2.4147 | Val UAR: 0.1484
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.1682 | Val loss: 2.2627 | Val UAR: 0.1797
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.0064 | Val loss: 2.1660 | Val UAR: 0.2188
+Epoch 50/100 [Alpha: 0.50] | Train loss: 1.9317 | Val loss: 2.1023 | Val UAR: 0.2109
+Epoch 60/100 [Alpha: 0.50] | Train loss: 1.8433 | Val loss: 2.0837 | Val UAR: 0.2109
+Epoch 70/100 [Alpha: 0.50] | Train loss: 1.7395 | Val loss: 2.0022 | Val UAR: 0.2500
+Epoch 80/100 [Alpha: 0.50] | Train loss: 1.6847 | Val loss: 1.9871 | Val UAR: 0.2578
+Epoch 90/100 [Alpha: 0.50] | Train loss: 1.5730 | Val loss: 1.9498 | Val UAR: 0.2734
+Epoch 100/100 [Alpha: 0.50] | Train loss: 1.5084 | Val loss: 1.9303 | Val UAR: 0.2891
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 3.2695 | Val loss: 2.6550 | Val UAR: 0.0938
+Epoch 10/100 [Alpha: 0.30] | Train loss: 2.7313 | Val loss: 2.3190 | Val UAR: 0.1406
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.4786 | Val loss: 2.1463 | Val UAR: 0.1719
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.2761 | Val loss: 2.0215 | Val UAR: 0.1953
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.0757 | Val loss: 1.9651 | Val UAR: 0.2500
+...
+Epoch 70/100 [Alpha: 0.50] | Train loss: 1.6764 | Val loss: 1.6389 | Val UAR: 0.3750
+Epoch 80/100 [Alpha: 0.50] | Train loss: 1.5526 | Val loss: 1.5919 | Val UAR: 0.3984
+Epoch 90/100 [Alpha: 0.50] | Train loss: 1.4686 | Val loss: 1.5314 | Val UAR: 0.4453
+Epoch 100/100 [Alpha: 0.50] | Train loss: 1.3977 | Val loss: 1.4926 | Val UAR: 0.4688
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 18:33:17,517] Trial 10 finished with value: 0.34375 and parameters: {'lr': 1.2318885297304135e-05, 'batch_size': 16, 'dropout_rate': 0.043565560090698535, 'wd': 0.00046630061069789314, 't_0_loop': 5}. Best is trial 2 with value: 0.49934895833333337.
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7770 | Val loss: 1.7140 | Val UAR: 0.2969
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3104 | Val loss: 1.8781 | Val UAR: 0.4922
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3089 | Val loss: 1.9679 | Val UAR: 0.5469
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2263 | Val loss: 2.2550 | Val UAR: 0.5391
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2286 | Val loss: 3.3581 | Val UAR: 0.4297
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2633 | Val loss: 2.1686 | Val UAR: 0.4844
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2241 | Val loss: 2.4280 | Val UAR: 0.4766
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1906 | Val loss: 2.3147 | Val UAR: 0.5234
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2544 | Val loss: 2.8865 | Val UAR: 0.4531
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1754 | Val loss: 2.5942 | Val UAR: 0.4922
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1702 | Val loss: 2.8054 | Val UAR: 0.4531
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7655 | Val loss: 1.9016 | Val UAR: 0.3125
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4128 | Val loss: 3.3963 | Val UAR: 0.3516
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2546 | Val loss: 3.9184 | Val UAR: 0.4219
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2275 | Val loss: 2.3838 | Val UAR: 0.5000
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1876 | Val loss: 3.6198 | Val UAR: 0.3672
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1964 | Val loss: 2.9727 | Val UAR: 0.4062
+...
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1945 | Val loss: 2.1291 | Val UAR: 0.6484
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2745 | Val loss: 2.0280 | Val UAR: 0.6172
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1799 | Val loss: 2.3659 | Val UAR: 0.6641
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1671 | Val loss: 2.4580 | Val UAR: 0.6016
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 18:45:37,489] Trial 11 finished with value: 0.5104166666666666 and parameters: {'lr': 0.015378708428833926, 'batch_size': 32, 'dropout_rate': 0.34515535948437154, 'wd': 0.0002501222171995043, 't_0_loop': 3}. Best is trial 11 with value: 0.5104166666666666.
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0014 | Val loss: 1.8841 | Val UAR: 0.2109
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4201 | Val loss: 2.5185 | Val UAR: 0.4219
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2536 | Val loss: 2.4955 | Val UAR: 0.5156
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2051 | Val loss: 2.4415 | Val UAR: 0.4766
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1881 | Val loss: 3.8149 | Val UAR: 0.4297
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3858 | Val loss: 2.7936 | Val UAR: 0.4609
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1978 | Val loss: 3.4253 | Val UAR: 0.5547
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1928 | Val loss: 3.5301 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2138 | Val loss: 3.0359 | Val UAR: 0.4844
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2689 | Val loss: 3.2798 | Val UAR: 0.4531
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2221 | Val loss: 3.9147 | Val UAR: 0.4922
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9274 | Val loss: 1.7951 | Val UAR: 0.2422
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3772 | Val loss: 2.3528 | Val UAR: 0.4609
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3693 | Val loss: 3.5673 | Val UAR: 0.3828
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2455 | Val loss: 2.7127 | Val UAR: 0.4375
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2509 | Val loss: 3.3656 | Val UAR: 0.4062
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1603 | Val loss: 3.4255 | Val UAR: 0.3828
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2065 | Val loss: 1.7918 | Val UAR: 0.6484
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2330 | Val loss: 3.3467 | Val UAR: 0.6172
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2201 | Val loss: 2.2359 | Val UAR: 0.6484
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1850 | Val loss: 2.5090 | Val UAR: 0.6250
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 18:53:35,162] Trial 12 finished with value: 0.5032552083333333 and parameters: {'lr': 0.02895649996152484, 'batch_size': 64, 'dropout_rate': 0.34372125138906345, 'wd': 0.00021301990495658398, 't_0_loop': 3}. Best is trial 11 with value: 0.5104166666666666.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2056 | Val loss: 2.6467 | Val UAR: 0.5859
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9212 | Val loss: 1.8845 | Val UAR: 0.2656
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3005 | Val loss: 2.1013 | Val UAR: 0.5234
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3071 | Val loss: 2.4218 | Val UAR: 0.4844
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2493 | Val loss: 2.3455 | Val UAR: 0.4844
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2446 | Val loss: 3.0910 | Val UAR: 0.4453
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2438 | Val loss: 2.8626 | Val UAR: 0.4453
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2047 | Val loss: 2.8071 | Val UAR: 0.4609
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2300 | Val loss: 3.4601 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.4183 | Val loss: 2.0262 | Val UAR: 0.5312
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1883 | Val loss: 2.9945 | Val UAR: 0.4375
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2309 | Val loss: 3.3709 | Val UAR: 0.4297
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8585 | Val loss: 1.6888 | Val UAR: 0.3594
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3795 | Val loss: 2.2073 | Val UAR: 0.5391
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2696 | Val loss: 2.8423 | Val UAR: 0.4375
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2602 | Val loss: 3.2544 | Val UAR: 0.3828
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2599 | Val loss: 3.3655 | Val UAR: 0.3984
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1693 | Val loss: 2.0513 | Val UAR: 0.6016
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2294 | Val loss: 1.7648 | Val UAR: 0.6328
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2854 | Val loss: 2.2182 | Val UAR: 0.6250
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1689 | Val loss: 2.8139 | Val UAR: 0.6172
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 19:06:06,716] Trial 13 finished with value: 0.5182291666666666 and parameters: {'lr': 0.019297097395950705, 'batch_size': 32, 'dropout_rate': 0.3606470313378609, 'wd': 0.00019976587524104205, 't_0_loop': 3}. Best is trial 13 with value: 0.5182291666666666.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2141 | Val loss: 3.1572 | Val UAR: 0.5156
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0099 | Val loss: 1.7989 | Val UAR: 0.2812
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2247 | Val loss: 1.9194 | Val UAR: 0.4453
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1475 | Val loss: 2.1845 | Val UAR: 0.4844
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1482 | Val loss: 2.1270 | Val UAR: 0.4531
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0380 | Val loss: 2.6713 | Val UAR: 0.4297
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0689 | Val loss: 2.3629 | Val UAR: 0.5078
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0416 | Val loss: 2.2098 | Val UAR: 0.4766
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0336 | Val loss: 2.7304 | Val UAR: 0.4375
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0084 | Val loss: 2.5425 | Val UAR: 0.4922
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0017 | Val loss: 2.5013 | Val UAR: 0.4922
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0011 | Val loss: 2.5069 | Val UAR: 0.4922
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0208 | Val loss: 1.7623 | Val UAR: 0.3828
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2147 | Val loss: 2.6030 | Val UAR: 0.3828
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1297 | Val loss: 2.8973 | Val UAR: 0.4219
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0781 | Val loss: 3.3103 | Val UAR: 0.3906
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1094 | Val loss: 2.8687 | Val UAR: 0.4062
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0464 | Val loss: 1.9564 | Val UAR: 0.6797
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0095 | Val loss: 1.8612 | Val UAR: 0.6562
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0539 | Val loss: 1.4829 | Val UAR: 0.7109
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0020 | Val loss: 1.8270 | Val UAR: 0.6484
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 19:18:18,962] Trial 14 finished with value: 0.49739583333333337 and parameters: {'lr': 0.0030090336741838844, 'batch_size': 32, 'dropout_rate': 0.3491974794835197, 'wd': 0.00025626031901355555, 't_0_loop': 5}. Best is trial 13 with value: 0.5182291666666666.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0017 | Val loss: 1.8067 | Val UAR: 0.6484
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8114 | Val loss: 1.6908 | Val UAR: 0.3750
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.1598 | Val loss: 1.9309 | Val UAR: 0.4688
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1422 | Val loss: 2.2502 | Val UAR: 0.5000
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0924 | Val loss: 2.5159 | Val UAR: 0.5000
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0693 | Val loss: 2.4071 | Val UAR: 0.5469
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0470 | Val loss: 2.3710 | Val UAR: 0.5781
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0526 | Val loss: 2.1067 | Val UAR: 0.5156
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0626 | Val loss: 2.3442 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0237 | Val loss: 2.3438 | Val UAR: 0.5391
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0324 | Val loss: 2.8426 | Val UAR: 0.4609
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0405 | Val loss: 2.0795 | Val UAR: 0.5625
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7881 | Val loss: 1.8248 | Val UAR: 0.2891
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.1543 | Val loss: 2.2322 | Val UAR: 0.4453
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1220 | Val loss: 2.5820 | Val UAR: 0.5078
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0747 | Val loss: 2.7550 | Val UAR: 0.5078
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0434 | Val loss: 2.5479 | Val UAR: 0.4531
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0413 | Val loss: 1.8089 | Val UAR: 0.6484
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0485 | Val loss: 1.6510 | Val UAR: 0.6406
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0305 | Val loss: 1.8307 | Val UAR: 0.6406
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0556 | Val loss: 1.8119 | Val UAR: 0.6328
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 19:29:02,033] Trial 15 finished with value: 0.5045572916666667 and parameters: {'lr': 0.013031815767304887, 'batch_size': 32, 'dropout_rate': 0.33129919147462145, 'wd': 0.0007105200421615943, 't_0_loop': 10}. Best is trial 13 with value: 0.5182291666666666.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0346 | Val loss: 1.6182 | Val UAR: 0.6641
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.1337 | Val loss: 1.7941 | Val UAR: 0.2422
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2957 | Val loss: 1.9649 | Val UAR: 0.4609
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2653 | Val loss: 2.6144 | Val UAR: 0.4531
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1578 | Val loss: 2.1444 | Val UAR: 0.5078
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1599 | Val loss: 2.0242 | Val UAR: 0.5391
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1857 | Val loss: 2.5404 | Val UAR: 0.4688
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1100 | Val loss: 2.2406 | Val UAR: 0.5078
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1808 | Val loss: 2.4392 | Val UAR: 0.4922
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1679 | Val loss: 3.4060 | Val UAR: 0.3906
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0676 | Val loss: 2.6150 | Val UAR: 0.4844
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0684 | Val loss: 3.5830 | Val UAR: 0.3516
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0970 | Val loss: 1.7951 | Val UAR: 0.2891
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3397 | Val loss: 2.2276 | Val UAR: 0.3906
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2517 | Val loss: 3.4105 | Val UAR: 0.3594
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1330 | Val loss: 3.3457 | Val UAR: 0.3906
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1084 | Val loss: 3.5176 | Val UAR: 0.4453
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0352 | Val loss: 2.1124 | Val UAR: 0.6484
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1199 | Val loss: 2.0887 | Val UAR: 0.5781
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0725 | Val loss: 1.9229 | Val UAR: 0.6797
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0766 | Val loss: 2.0323 | Val UAR: 0.6562
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 19:36:30,689] Trial 16 finished with value: 0.5 and parameters: {'lr': 0.0025113406206443293, 'batch_size': 32, 'dropout_rate': 0.38427058215859244, 'wd': 9.635003865550372e-05, 't_0_loop': 3}. Best is trial 13 with value: 0.5182291666666666.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0110 | Val loss: 2.2395 | Val UAR: 0.6094
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7992 | Val loss: 1.6236 | Val UAR: 0.3359
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2594 | Val loss: 2.0154 | Val UAR: 0.5156
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2734 | Val loss: 3.1945 | Val UAR: 0.4062
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1751 | Val loss: 2.4440 | Val UAR: 0.4375
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1451 | Val loss: 2.4225 | Val UAR: 0.4844
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2232 | Val loss: 1.7657 | Val UAR: 0.6172
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1859 | Val loss: 2.3507 | Val UAR: 0.5469
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1806 | Val loss: 2.9680 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1945 | Val loss: 2.5748 | Val UAR: 0.4766
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1631 | Val loss: 2.5935 | Val UAR: 0.5234
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1471 | Val loss: 2.9441 | Val UAR: 0.4922
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7564 | Val loss: 1.8081 | Val UAR: 0.2812
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2859 | Val loss: 2.8985 | Val UAR: 0.4219
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2916 | Val loss: 2.5653 | Val UAR: 0.4922
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1641 | Val loss: 2.5889 | Val UAR: 0.4844
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2170 | Val loss: 3.5627 | Val UAR: 0.4062
+...
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1914 | Val loss: 1.7058 | Val UAR: 0.6250
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1880 | Val loss: 1.6477 | Val UAR: 0.6250
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1286 | Val loss: 1.7825 | Val UAR: 0.6484
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1645 | Val loss: 1.8482 | Val UAR: 0.6562
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 19:45:24,235] Trial 17 finished with value: 0.5208333333333333 and parameters: {'lr': 0.00928142592720432, 'batch_size': 32, 'dropout_rate': 0.296698201872444, 'wd': 0.0009895750886519433, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.6950 | Val loss: 1.8865 | Val UAR: 0.3750
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3126 | Val loss: 2.1326 | Val UAR: 0.4844
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2953 | Val loss: 1.9836 | Val UAR: 0.5781
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2276 | Val loss: 2.7744 | Val UAR: 0.4453
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1423 | Val loss: 2.9980 | Val UAR: 0.4766
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2643 | Val loss: 2.7375 | Val UAR: 0.4531
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1114 | Val loss: 1.9534 | Val UAR: 0.5547
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1325 | Val loss: 2.3608 | Val UAR: 0.5625
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1074 | Val loss: 2.5312 | Val UAR: 0.5781
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0960 | Val loss: 1.6558 | Val UAR: 0.6172
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1418 | Val loss: 2.4260 | Val UAR: 0.5391
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7150 | Val loss: 1.9483 | Val UAR: 0.2891
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2537 | Val loss: 2.5315 | Val UAR: 0.4531
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3405 | Val loss: 2.8146 | Val UAR: 0.3359
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1508 | Val loss: 3.1589 | Val UAR: 0.4531
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3063 | Val loss: 2.7032 | Val UAR: 0.4375
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2151 | Val loss: 2.4868 | Val UAR: 0.5000
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1914 | Val loss: 1.5372 | Val UAR: 0.6484
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3046 | Val loss: 1.9638 | Val UAR: 0.5703
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1632 | Val loss: 1.5546 | Val UAR: 0.6094
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0809 | Val loss: 1.4228 | Val UAR: 0.6172
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:03:42,559] Trial 18 finished with value: 0.4921875 and parameters: {'lr': 0.0074385362235814345, 'batch_size': 16, 'dropout_rate': 0.28895663204000843, 'wd': 0.001128292472328709, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2442 | Val loss: 2.0801 | Val UAR: 0.5781
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9209 | Val loss: 1.8461 | Val UAR: 0.2812
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2253 | Val loss: 1.8669 | Val UAR: 0.4375
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1638 | Val loss: 2.4127 | Val UAR: 0.4062
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0936 | Val loss: 2.1839 | Val UAR: 0.4375
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0471 | Val loss: 2.7138 | Val UAR: 0.4219
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0653 | Val loss: 3.0382 | Val UAR: 0.4219
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0410 | Val loss: 3.0950 | Val UAR: 0.4219
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0017 | Val loss: 2.9634 | Val UAR: 0.4375
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0602 | Val loss: 3.0956 | Val UAR: 0.4141
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0462 | Val loss: 3.0237 | Val UAR: 0.4844
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0486 | Val loss: 3.1239 | Val UAR: 0.4531
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9546 | Val loss: 1.7955 | Val UAR: 0.3125
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2169 | Val loss: 2.4863 | Val UAR: 0.4062
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1442 | Val loss: 3.0780 | Val UAR: 0.4062
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0745 | Val loss: 3.6427 | Val UAR: 0.3984
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0343 | Val loss: 3.6099 | Val UAR: 0.3672
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0178 | Val loss: 2.0051 | Val UAR: 0.6016
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0181 | Val loss: 2.1858 | Val UAR: 0.5391
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0310 | Val loss: 2.0386 | Val UAR: 0.5859
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0260 | Val loss: 2.0316 | Val UAR: 0.6562
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:12:37,265] Trial 19 finished with value: 0.470703125 and parameters: {'lr': 0.0017367053298255383, 'batch_size': 32, 'dropout_rate': 0.19102764855067528, 'wd': 9.353231790599053e-05, 't_0_loop': 5}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0140 | Val loss: 2.1455 | Val UAR: 0.6250
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.9858 | Val loss: 2.3452 | Val UAR: 0.1250
+Epoch 10/100 [Alpha: 0.30] | Train loss: 2.8441 | Val loss: 2.5350 | Val UAR: 0.1484
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.6765 | Val loss: 2.2804 | Val UAR: 0.1719
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.3071 | Val loss: 2.1218 | Val UAR: 0.2266
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.2847 | Val loss: 2.0655 | Val UAR: 0.2500
+Epoch 50/100 [Alpha: 0.50] | Train loss: 2.1000 | Val loss: 2.0080 | Val UAR: 0.2734
+Epoch 60/100 [Alpha: 0.50] | Train loss: 2.0529 | Val loss: 1.9553 | Val UAR: 0.2969
+Epoch 70/100 [Alpha: 0.50] | Train loss: 1.8614 | Val loss: 1.9542 | Val UAR: 0.2891
+Epoch 80/100 [Alpha: 0.50] | Train loss: 1.7777 | Val loss: 1.9491 | Val UAR: 0.3047
+Epoch 90/100 [Alpha: 0.50] | Train loss: 1.7068 | Val loss: 1.9182 | Val UAR: 0.3125
+Epoch 100/100 [Alpha: 0.50] | Train loss: 1.5978 | Val loss: 1.8997 | Val UAR: 0.2891
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 3.7146 | Val loss: 2.3070 | Val UAR: 0.0938
+Epoch 10/100 [Alpha: 0.30] | Train loss: 3.0610 | Val loss: 2.2189 | Val UAR: 0.1641
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.8162 | Val loss: 2.0647 | Val UAR: 0.2109
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.5023 | Val loss: 1.9629 | Val UAR: 0.2422
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.2969 | Val loss: 1.9189 | Val UAR: 0.2812
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 1.8179 | Val loss: 1.6290 | Val UAR: 0.4297
+Epoch 70/100 [Alpha: 0.50] | Train loss: 1.7923 | Val loss: 1.5649 | Val UAR: 0.4922
+Epoch 80/100 [Alpha: 0.50] | Train loss: 1.7262 | Val loss: 1.5267 | Val UAR: 0.5234
+Epoch 90/100 [Alpha: 0.50] | Train loss: 1.5871 | Val loss: 1.4921 | Val UAR: 0.5000
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:23:21,779] Trial 20 finished with value: 0.3795572916666667 and parameters: {'lr': 4.128894681968952e-05, 'batch_size': 32, 'dropout_rate': 0.49803629967759466, 'wd': 0.0014803022440444161, 't_0_loop': 10}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 1.4722 | Val loss: 1.4436 | Val UAR: 0.5078
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8904 | Val loss: 1.6357 | Val UAR: 0.3594
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4323 | Val loss: 1.6277 | Val UAR: 0.5000
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4580 | Val loss: 2.3660 | Val UAR: 0.4141
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3049 | Val loss: 2.0321 | Val UAR: 0.5625
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3466 | Val loss: 2.6993 | Val UAR: 0.4688
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3967 | Val loss: 3.1020 | Val UAR: 0.4219
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2233 | Val loss: 2.5722 | Val UAR: 0.5469
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2272 | Val loss: 2.1396 | Val UAR: 0.5391
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3503 | Val loss: 2.5065 | Val UAR: 0.5625
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2687 | Val loss: 2.7576 | Val UAR: 0.5078
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2388 | Val loss: 4.4203 | Val UAR: 0.4453
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8581 | Val loss: 1.7312 | Val UAR: 0.3047
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3672 | Val loss: 1.9551 | Val UAR: 0.4688
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4094 | Val loss: 3.1214 | Val UAR: 0.4297
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3369 | Val loss: 2.7733 | Val UAR: 0.4609
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1730 | Val loss: 3.4464 | Val UAR: 0.4219
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2024 | Val loss: 1.9978 | Val UAR: 0.7031
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2858 | Val loss: 2.0987 | Val UAR: 0.6172
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2131 | Val loss: 2.5027 | Val UAR: 0.6016
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.3081 | Val loss: 2.3934 | Val UAR: 0.5625
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:34:18,093] Trial 21 finished with value: 0.49739583333333337 and parameters: {'lr': 0.02758839232023226, 'batch_size': 32, 'dropout_rate': 0.30380015168211894, 'wd': 0.0002862933390118625, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3195 | Val loss: 2.8661 | Val UAR: 0.5625
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9142 | Val loss: 1.7827 | Val UAR: 0.2422
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3248 | Val loss: 1.8238 | Val UAR: 0.5391
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2690 | Val loss: 2.1588 | Val UAR: 0.5000
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2547 | Val loss: 1.8475 | Val UAR: 0.5469
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2066 | Val loss: 2.7904 | Val UAR: 0.4688
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2207 | Val loss: 3.3008 | Val UAR: 0.5000
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1471 | Val loss: 2.5711 | Val UAR: 0.4922
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1371 | Val loss: 2.6102 | Val UAR: 0.5234
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2285 | Val loss: 2.4977 | Val UAR: 0.5078
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1291 | Val loss: 3.3479 | Val UAR: 0.5234
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1938 | Val loss: 4.3067 | Val UAR: 0.4062
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9136 | Val loss: 1.7687 | Val UAR: 0.3281
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2540 | Val loss: 3.2108 | Val UAR: 0.4609
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3019 | Val loss: 3.3153 | Val UAR: 0.4531
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1958 | Val loss: 2.8583 | Val UAR: 0.4453
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2005 | Val loss: 3.4093 | Val UAR: 0.4531
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1740 | Val loss: 2.1850 | Val UAR: 0.5312
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1603 | Val loss: 2.1747 | Val UAR: 0.5391
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2117 | Val loss: 3.3714 | Val UAR: 0.4844
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1677 | Val loss: 2.4292 | Val UAR: 0.5312
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:44:12,250] Trial 22 finished with value: 0.48958333333333326 and parameters: {'lr': 0.012271776504620049, 'batch_size': 32, 'dropout_rate': 0.38177207545836567, 'wd': 9.689631859867857e-05, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1447 | Val loss: 3.1238 | Val UAR: 0.4844
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8154 | Val loss: 1.6246 | Val UAR: 0.3828
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2230 | Val loss: 2.2577 | Val UAR: 0.4844
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2798 | Val loss: 2.0349 | Val UAR: 0.4922
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1398 | Val loss: 2.1618 | Val UAR: 0.5156
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1703 | Val loss: 2.5230 | Val UAR: 0.4219
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.1573 | Val loss: 2.4741 | Val UAR: 0.5234
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1117 | Val loss: 2.2024 | Val UAR: 0.5391
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1004 | Val loss: 3.0576 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1270 | Val loss: 2.5189 | Val UAR: 0.5312
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1246 | Val loss: 2.3801 | Val UAR: 0.5156
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0490 | Val loss: 2.2351 | Val UAR: 0.5547
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7313 | Val loss: 1.8433 | Val UAR: 0.3438
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2512 | Val loss: 2.9580 | Val UAR: 0.3594
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2641 | Val loss: 3.5429 | Val UAR: 0.4609
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1401 | Val loss: 3.0013 | Val UAR: 0.4766
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1512 | Val loss: 3.6747 | Val UAR: 0.4453
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1084 | Val loss: 1.2566 | Val UAR: 0.6875
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1035 | Val loss: 1.1279 | Val UAR: 0.7188
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.1616 | Val loss: 1.8117 | Val UAR: 0.6406
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1255 | Val loss: 1.6735 | Val UAR: 0.6094
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:51:15,356] Trial 23 finished with value: 0.494140625 and parameters: {'lr': 0.006313736291949471, 'batch_size': 32, 'dropout_rate': 0.2879042039722438, 'wd': 0.0006565425987261149, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1485 | Val loss: 1.8880 | Val UAR: 0.6250
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0222 | Val loss: 1.7153 | Val UAR: 0.2578
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3697 | Val loss: 2.3509 | Val UAR: 0.4141
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3956 | Val loss: 1.9254 | Val UAR: 0.5078
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2764 | Val loss: 3.0146 | Val UAR: 0.4062
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2139 | Val loss: 3.1115 | Val UAR: 0.4062
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2514 | Val loss: 2.8848 | Val UAR: 0.4766
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1787 | Val loss: 3.0178 | Val UAR: 0.5156
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2481 | Val loss: 3.6238 | Val UAR: 0.3828
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2651 | Val loss: 3.9916 | Val UAR: 0.4141
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1412 | Val loss: 3.2207 | Val UAR: 0.4609
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1972 | Val loss: 3.3650 | Val UAR: 0.5000
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8778 | Val loss: 1.7809 | Val UAR: 0.3828
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3469 | Val loss: 3.5622 | Val UAR: 0.4375
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2916 | Val loss: 3.7394 | Val UAR: 0.4219
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2127 | Val loss: 3.1635 | Val UAR: 0.4688
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1840 | Val loss: 3.3896 | Val UAR: 0.5156
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2201 | Val loss: 2.8074 | Val UAR: 0.5391
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1707 | Val loss: 2.0847 | Val UAR: 0.5938
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2226 | Val loss: 3.7035 | Val UAR: 0.5312
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2023 | Val loss: 3.0673 | Val UAR: 0.6172
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 20:57:57,416] Trial 24 finished with value: 0.5 and parameters: {'lr': 0.016493700323876526, 'batch_size': 32, 'dropout_rate': 0.384831110399289, 'wd': 0.00014899378441913776, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1057 | Val loss: 3.2067 | Val UAR: 0.5156
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9033 | Val loss: 1.9013 | Val UAR: 0.2812
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3079 | Val loss: 1.7819 | Val UAR: 0.5234
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1304 | Val loss: 2.1661 | Val UAR: 0.5078
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0785 | Val loss: 2.5233 | Val UAR: 0.4844
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0649 | Val loss: 2.6641 | Val UAR: 0.4766
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0507 | Val loss: 2.4726 | Val UAR: 0.5312
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0352 | Val loss: 2.8314 | Val UAR: 0.5000
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0021 | Val loss: 2.3334 | Val UAR: 0.5234
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0164 | Val loss: 2.4641 | Val UAR: 0.5234
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0049 | Val loss: 2.3944 | Val UAR: 0.5547
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0676 | Val loss: 2.5438 | Val UAR: 0.5312
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0224 | Val loss: 1.8761 | Val UAR: 0.2969
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2687 | Val loss: 2.3301 | Val UAR: 0.3984
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1441 | Val loss: 3.0848 | Val UAR: 0.3984
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0979 | Val loss: 3.2321 | Val UAR: 0.3984
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1121 | Val loss: 2.7889 | Val UAR: 0.4531
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0378 | Val loss: 1.8192 | Val UAR: 0.5938
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0772 | Val loss: 1.7110 | Val UAR: 0.6172
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0197 | Val loss: 1.8655 | Val UAR: 0.5781
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0012 | Val loss: 1.6042 | Val UAR: 0.6172
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 21:08:59,980] Trial 25 finished with value: 0.49739583333333337 and parameters: {'lr': 0.001142519601011422, 'batch_size': 16, 'dropout_rate': 0.2744813467355028, 'wd': 0.0004393992732353082, 't_0_loop': 2}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0010 | Val loss: 1.6430 | Val UAR: 0.6250
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8333 | Val loss: 1.6461 | Val UAR: 0.3828
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3230 | Val loss: 1.7965 | Val UAR: 0.5000
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4361 | Val loss: 2.1656 | Val UAR: 0.4219
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2197 | Val loss: 1.9223 | Val UAR: 0.4609
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3134 | Val loss: 1.9580 | Val UAR: 0.5156
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2913 | Val loss: 1.8320 | Val UAR: 0.4922
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2209 | Val loss: 1.6527 | Val UAR: 0.5469
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2979 | Val loss: 1.9968 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2801 | Val loss: 1.9753 | Val UAR: 0.4844
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2025 | Val loss: 1.6345 | Val UAR: 0.5625
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2567 | Val loss: 2.0071 | Val UAR: 0.5547
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7444 | Val loss: 1.7611 | Val UAR: 0.3359
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4263 | Val loss: 1.9848 | Val UAR: 0.4453
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3554 | Val loss: 2.2206 | Val UAR: 0.4531
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2164 | Val loss: 2.1565 | Val UAR: 0.4375
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2776 | Val loss: 2.4186 | Val UAR: 0.4609
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2413 | Val loss: 1.4554 | Val UAR: 0.6406
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2604 | Val loss: 1.7389 | Val UAR: 0.6094
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2956 | Val loss: 1.3903 | Val UAR: 0.6562
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2111 | Val loss: 1.2982 | Val UAR: 0.6562
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 21:15:45,284] Trial 26 finished with value: 0.5182291666666666 and parameters: {'lr': 0.008829061554156732, 'batch_size': 32, 'dropout_rate': 0.3330526579695219, 'wd': 0.004031261548592732, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2699 | Val loss: 1.6166 | Val UAR: 0.6641
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0474 | Val loss: 1.8660 | Val UAR: 0.2734
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3553 | Val loss: 1.6394 | Val UAR: 0.4688
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3370 | Val loss: 2.1679 | Val UAR: 0.4062
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1736 | Val loss: 2.0559 | Val UAR: 0.4766
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2980 | Val loss: 2.4508 | Val UAR: 0.4531
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3018 | Val loss: 2.1738 | Val UAR: 0.4844
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2155 | Val loss: 2.1762 | Val UAR: 0.4766
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.1571 | Val loss: 2.5159 | Val UAR: 0.4375
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2424 | Val loss: 2.2183 | Val UAR: 0.4531
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1576 | Val loss: 2.7305 | Val UAR: 0.4062
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1226 | Val loss: 2.3593 | Val UAR: 0.4688
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0048 | Val loss: 1.9176 | Val UAR: 0.2734
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3300 | Val loss: 2.3679 | Val UAR: 0.3906
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3400 | Val loss: 2.6308 | Val UAR: 0.4375
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1801 | Val loss: 2.8143 | Val UAR: 0.4219
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2694 | Val loss: 2.4687 | Val UAR: 0.3828
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1780 | Val loss: 1.3251 | Val UAR: 0.6328
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2189 | Val loss: 1.9760 | Val UAR: 0.5469
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2038 | Val loss: 1.5387 | Val UAR: 0.6172
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1381 | Val loss: 1.3963 | Val UAR: 0.6328
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 21:25:35,420] Trial 27 finished with value: 0.4895833333333333 and parameters: {'lr': 0.0036416806839623755, 'batch_size': 32, 'dropout_rate': 0.40763540815293536, 'wd': 0.004893712868138368, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2186 | Val loss: 1.5681 | Val UAR: 0.6172
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8054 | Val loss: 1.6943 | Val UAR: 0.3125
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4051 | Val loss: 1.4751 | Val UAR: 0.4844
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4323 | Val loss: 1.7176 | Val UAR: 0.4297
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3095 | Val loss: 1.8407 | Val UAR: 0.5000
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.4054 | Val loss: 2.3641 | Val UAR: 0.4062
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3615 | Val loss: 2.1045 | Val UAR: 0.4844
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2648 | Val loss: 1.9952 | Val UAR: 0.4453
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3176 | Val loss: 2.1612 | Val UAR: 0.4531
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3511 | Val loss: 2.0902 | Val UAR: 0.4453
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1784 | Val loss: 2.2337 | Val UAR: 0.4844
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3944 | Val loss: 1.9542 | Val UAR: 0.4844
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7339 | Val loss: 1.7737 | Val UAR: 0.2969
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4364 | Val loss: 2.3079 | Val UAR: 0.3906
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.4345 | Val loss: 2.6912 | Val UAR: 0.3594
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2732 | Val loss: 1.9711 | Val UAR: 0.4531
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3611 | Val loss: 2.2582 | Val UAR: 0.4375
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2487 | Val loss: 1.1837 | Val UAR: 0.6953
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.3443 | Val loss: 1.8876 | Val UAR: 0.5781
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3429 | Val loss: 1.0216 | Val UAR: 0.7109
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.2529 | Val loss: 1.1166 | Val UAR: 0.7266
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 21:35:04,750] Trial 28 finished with value: 0.48763020833333337 and parameters: {'lr': 0.007890677257960029, 'batch_size': 32, 'dropout_rate': 0.31721838022457605, 'wd': 0.007127347531465781, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.3450 | Val loss: 1.2720 | Val UAR: 0.6797
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8082 | Val loss: 1.8296 | Val UAR: 0.2812
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2661 | Val loss: 1.8904 | Val UAR: 0.4141
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1946 | Val loss: 2.2162 | Val UAR: 0.5547
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.1134 | Val loss: 2.1644 | Val UAR: 0.4922
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.0847 | Val loss: 2.2699 | Val UAR: 0.4375
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.0647 | Val loss: 2.4324 | Val UAR: 0.4375
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.0306 | Val loss: 2.5816 | Val UAR: 0.4219
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0731 | Val loss: 2.3311 | Val UAR: 0.4844
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0777 | Val loss: 2.2158 | Val UAR: 0.5312
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0665 | Val loss: 2.2683 | Val UAR: 0.5000
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.0724 | Val loss: 2.4514 | Val UAR: 0.4688
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.8688 | Val loss: 1.8135 | Val UAR: 0.3047
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.2138 | Val loss: 2.5810 | Val UAR: 0.4219
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.1297 | Val loss: 2.6533 | Val UAR: 0.4297
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.0775 | Val loss: 3.7818 | Val UAR: 0.3516
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.1241 | Val loss: 3.3182 | Val UAR: 0.3672
+...
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.0666 | Val loss: 1.1948 | Val UAR: 0.6641
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.0555 | Val loss: 1.3359 | Val UAR: 0.6562
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.0068 | Val loss: 1.2835 | Val UAR: 0.6406
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1299 | Val loss: 1.4852 | Val UAR: 0.5938
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 21:47:54,722] Trial 29 finished with value: 0.47981770833333337 and parameters: {'lr': 0.001429221135845819, 'batch_size': 16, 'dropout_rate': 0.20690167998981032, 'wd': 0.001628062941530195, 't_0_loop': 1}. Best is trial 17 with value: 0.5208333333333333.
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.6897 | Val loss: 2.3518 | Val UAR: 0.1250
+Epoch 10/100 [Alpha: 0.30] | Train loss: 2.5249 | Val loss: 2.5802 | Val UAR: 0.1562
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.4356 | Val loss: 2.3456 | Val UAR: 0.1562
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.1485 | Val loss: 2.1790 | Val UAR: 0.1953
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.0951 | Val loss: 2.1181 | Val UAR: 0.2344
+Epoch 50/100 [Alpha: 0.50] | Train loss: 1.9694 | Val loss: 2.0542 | Val UAR: 0.2422
+Epoch 60/100 [Alpha: 0.50] | Train loss: 1.8853 | Val loss: 1.9985 | Val UAR: 0.2734
+Epoch 70/100 [Alpha: 0.50] | Train loss: 1.7589 | Val loss: 1.9762 | Val UAR: 0.2812
+Epoch 80/100 [Alpha: 0.50] | Train loss: 1.6698 | Val loss: 1.9521 | Val UAR: 0.2891
+Epoch 90/100 [Alpha: 0.50] | Train loss: 1.5917 | Val loss: 1.9159 | Val UAR: 0.2891
+Epoch 100/100 [Alpha: 0.50] | Train loss: 1.4893 | Val loss: 1.8848 | Val UAR: 0.2969
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 3.4032 | Val loss: 2.3258 | Val UAR: 0.0938
+Epoch 10/100 [Alpha: 0.30] | Train loss: 2.8426 | Val loss: 2.2763 | Val UAR: 0.1484
+Epoch 20/100 [Alpha: 0.50] | Train loss: 2.5494 | Val loss: 2.0874 | Val UAR: 0.1875
+Epoch 30/100 [Alpha: 0.50] | Train loss: 2.2955 | Val loss: 1.9803 | Val UAR: 0.2266
+Epoch 40/100 [Alpha: 0.50] | Train loss: 2.1208 | Val loss: 1.9323 | Val UAR: 0.2656
+Epoch 50/100 [Alpha: 0.50] | Train loss: 1.9715 | Val loss: 1.8780 | Val UAR: 0.2891
+...
+Epoch 70/100 [Alpha: 0.50] | Train loss: 1.6435 | Val loss: 1.6152 | Val UAR: 0.4531
+Epoch 80/100 [Alpha: 0.50] | Train loss: 1.5825 | Val loss: 1.5714 | Val UAR: 0.4688
+Epoch 90/100 [Alpha: 0.50] | Train loss: 1.4798 | Val loss: 1.5308 | Val UAR: 0.4922
+Epoch 100/100 [Alpha: 0.50] | Train loss: 1.3658 | Val loss: 1.4774 | Val UAR: 0.4844
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 22:00:42,021] Trial 30 finished with value: 0.3645833333333333 and parameters: {'lr': 2.595670433054349e-05, 'batch_size': 32, 'dropout_rate': 0.2680528235430568, 'wd': 0.002751658161330431, 't_0_loop': 5}. Best is trial 17 with value: 0.5208333333333333.
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7968 | Val loss: 1.7495 | Val UAR: 0.3594
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.3491 | Val loss: 2.0709 | Val UAR: 0.4766
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.2795 | Val loss: 2.1672 | Val UAR: 0.5078
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2223 | Val loss: 2.9285 | Val UAR: 0.4766
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2697 | Val loss: 2.4408 | Val UAR: 0.4922
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2849 | Val loss: 2.3324 | Val UAR: 0.5156
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2047 | Val loss: 2.1158 | Val UAR: 0.5469
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2322 | Val loss: 2.7752 | Val UAR: 0.5469
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3124 | Val loss: 1.7107 | Val UAR: 0.6172
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.1907 | Val loss: 2.2684 | Val UAR: 0.5859
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2819 | Val loss: 2.6019 | Val UAR: 0.4922
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.7785 | Val loss: 1.7792 | Val UAR: 0.3047
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4092 | Val loss: 2.5840 | Val UAR: 0.3984
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.3046 | Val loss: 2.2140 | Val UAR: 0.4766
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2226 | Val loss: 2.5839 | Val UAR: 0.4688
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2092 | Val loss: 4.1874 | Val UAR: 0.3672
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.2820 | Val loss: 2.5240 | Val UAR: 0.3828
+...
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.1848 | Val loss: 2.8013 | Val UAR: 0.6016
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2093 | Val loss: 2.9985 | Val UAR: 0.5703
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.2405 | Val loss: 2.2425 | Val UAR: 0.6484
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.3054 | Val loss: 2.0937 | Val UAR: 0.6172
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[I 2026-07-09 22:12:43,724] Trial 31 finished with value: 0.490234375 and parameters: {'lr': 0.016369820439314342, 'batch_size': 32, 'dropout_rate': 0.3555726720888478, 'wd': 0.0007663067898403874, 't_0_loop': 3}. Best is trial 17 with value: 0.5208333333333333.
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.1789 | Val loss: 2.6082 | Val UAR: 0.5703
+
+============================================================
+Fold 1/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 1.9562 | Val loss: 2.0060 | Val UAR: 0.2891
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.5029 | Val loss: 2.2817 | Val UAR: 0.4453
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.5432 | Val loss: 2.6909 | Val UAR: 0.4844
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.2564 | Val loss: 2.7887 | Val UAR: 0.4375
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3284 | Val loss: 2.6271 | Val UAR: 0.5156
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3461 | Val loss: 4.2524 | Val UAR: 0.3984
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.4590 | Val loss: 2.2679 | Val UAR: 0.4609
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2588 | Val loss: 2.7374 | Val UAR: 0.4922
+Epoch 80/100 [Alpha: 0.50] | Train loss: 0.3928 | Val loss: 3.6993 | Val UAR: 0.5156
+Epoch 90/100 [Alpha: 0.50] | Train loss: 0.3468 | Val loss: 4.0393 | Val UAR: 0.4297
+Epoch 100/100 [Alpha: 0.50] | Train loss: 0.2767 | Val loss: 3.1298 | Val UAR: 0.5000
+
+============================================================
+Fold 2/5
+============================================================
+Epoch 1/100 [Alpha: 0.00] | Train loss: 2.0178 | Val loss: 1.7178 | Val UAR: 0.3047
+Epoch 10/100 [Alpha: 0.30] | Train loss: 0.4455 | Val loss: 2.9492 | Val UAR: 0.3516
+Epoch 20/100 [Alpha: 0.50] | Train loss: 0.5280 | Val loss: 2.7117 | Val UAR: 0.4297
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3218 | Val loss: 2.3016 | Val UAR: 0.4375
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.2238 | Val loss: 4.1795 | Val UAR: 0.3203
+...
+Epoch 30/100 [Alpha: 0.50] | Train loss: 0.3182 | Val loss: 4.0686 | Val UAR: 0.3984
+Epoch 40/100 [Alpha: 0.50] | Train loss: 0.3059 | Val loss: 5.2457 | Val UAR: 0.4141
+Epoch 50/100 [Alpha: 0.50] | Train loss: 0.3760 | Val loss: 3.7776 | Val UAR: 0.4609
+Epoch 60/100 [Alpha: 0.50] | Train loss: 0.2723 | Val loss: 3.0569 | Val UAR: 0.4766
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+[W 2026-07-09 22:19:16,232] Trial 32 failed with parameters: {'lr': 0.02997866427709767, 'batch_size': 32, 'dropout_rate': 0.41264163239446155, 'wd': 0.00017105833835642738, 't_0_loop': 3} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "d:\Speech_Processing\ResLSTM-SER\.venv\Lib\site-packages\optuna\study\_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "C:\Users\TruongPc\AppData\Local\Temp\ipykernel_12864\3620809322.py", line 39, in objective
+    oof_preds, oof_targets = k_fold_cv(
+                             ^^^^^^^^^^
+  File "C:\Users\TruongPc\AppData\Local\Temp\ipykernel_12864\3986832642.py", line 53, in k_fold_cv
+    training_loop(model, loss_fn_ce, loss_fn_triplet, miner, alpha, optimizer, lr_scheduler,
+  File "C:\Users\TruongPc\AppData\Local\Temp\ipykernel_12864\3452061630.py", line 42, in training_loop
+    scaler.scale(loss).backward()
+  File "d:\Speech_Processing\ResLSTM-SER\.venv\Lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "d:\Speech_Processing\ResLSTM-SER\.venv\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "d:\Speech_Processing\ResLSTM-SER\.venv\Lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[W 2026-07-09 22:19:16,233] Trial 32 failed with value None.
+Epoch 70/100 [Alpha: 0.50] | Train loss: 0.2501 | Val loss: 3.8145 | Val UAR: 0.4688
+
+Quá trình tối ưu hóa đã được người dùng dừng lại ngang chừng.
+
+Best hyperparameters:
+  lr: 0.00928142592720432
+  batch_size: 32
+  dropout_rate: 0.296698201872444
+  wd: 0.0009895750886519433
+  t_0_loop: 3
+  Best UAR: 0.5208
